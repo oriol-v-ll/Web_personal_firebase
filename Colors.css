@@ -1,0 +1,84 @@
+
+body{
+	background: #D3D3D3;
+}
+#cssmenu ul li a {
+	color: #ffffff;
+}
+#cssmenu ul li.Logo a{
+	color: #D3D3D3;
+}
+
+#cssmenu ul li.active{
+	background: #D3D3D3;
+
+}
+#cssmenu ul li.active a{
+
+	color: #1F2833;
+}
+
+#cssmenu {
+	background: #1F2833;
+}
+
+
+
+#cambiar_contra{
+
+  background: #1F2833;
+  
+} 
+
+#login {
+
+  background: #1F2833;
+  
+}
+
+
+.LightText {
+
+  
+  color: #c5c6c7;
+}
+
+.DarkText {
+
+  
+  color: #123456;
+}
+
+.RedText {
+
+  
+  color: red;
+}
+
+
+
+
+
+#cssmenu ul li a.menu:hover {
+	color: #66FCF1;
+}
+
+#cssmenu ul li a.menu:before{
+	background: #66FCF1;
+}
+
+#username {
+	color: #66FCF1;
+}
+
+#profile_image{
+	border-color: #66FCF1;
+}
+
+#LoginButton{
+	background: #296662; 
+	color: white;
+  
+}
+
+/*

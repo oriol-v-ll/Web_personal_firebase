@@ -1,0 +1,434 @@
+/*
+	Style.css per a la web oriolvillanova.com 
+
+	Desenvolupament en conjunt amb Albert gené per a la web cabesafamily.es
+	
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+		.carousel {
+        	position: absolute;
+            width: 200px;
+            height: 200px;
+            right: 5px;
+            margin-top:5px;
+           
+           
+        }
+        #imagen {
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            overflow: visible;
+
+        }
+		.controles{
+			display:block;
+			text-align:center;
+			
+		}
+
+#foto_perf{
+
+	height: 150px;
+	width: 170px;
+	position: relative;
+	margin-left: 50px;
+	padding: 5% 5%;
+	border-radius:15%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+/*Clase que solo se aplica en los elementos que tengan un párrafo */
+p.parrafos{
+	color: black;
+	font-size: small;
+	position: fixed;
+
+}
+
+
+.Admin{
+	background:red;
+	color:red;
+	visibility:visible;
+}
+
+
+h1{
+	font-family:Arial;
+	font-size: 35px;
+	font-style:bold;
+}
+
+
+
+.bold{
+	font-style:bold;
+}
+
+
+body{
+	margin: 0px;
+	font-size: 16px;
+	font-family:Arial;
+
+}
+
+#profile_image{
+	text-align: center;
+	display: block;
+	margin: 8px 8px;
+	/*padding: 10px 10px;*/
+	width: 40px;
+	height: 40px;
+	border-radius:100%;
+	float:right;
+	border: 3px solid;
+	object-fit: cover;
+	
+	
+	
+}
+#profile_image_contra{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius:100%;
+	float:right;
+	border: 3px solid;
+	margin:20px 0px;
+}
+
+#profile_image_div{
+	
+}
+
+
+#LogoImage{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	width: 90px;
+	height: 75px;
+	position: absolute;
+	top: 15px;
+	left: 25px;
+	/*background-color: blue;*/
+}
+
+#espaciador{
+
+	width: 150px;
+	height: 0px;
+	
+}
+
+
+
+
+
+#cssmenu ul li.Logo{
+
+
+}
+#cssmenu ul li.active{
+
+}
+
+#cssmenu {
+	margin: 0px 0px;
+	width: 100%;
+	/*padding: 80px 0px;*/
+	position: fixed;
+	box-shadow: 0px 10px 9px -4px rgba(0,0,0,0.49);
+	
+}
+#cssmenu ul {
+	list-style: none;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	line-height: 1;
+	display: block;
+	zoom: 1;
+}
+
+#cssmenu ul li {
+
+	display: inline-block;
+	padding: 0pxg;
+	margin: 0px;
+}
+
+#cssmenu ul li a.menu {
+
+	text-decoration: none;
+	display: block;
+	padding: 40px 40px;
+	margin: 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase; /* a mayusculas */
+	font-size: 17px;
+	position: relative;
+
+	transition: color .25s;
+}
+
+#cssmenu ul li a.menu:hover:before {
+	width: 100%;
+}
+
+#cssmenu ul li a.menu:before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0;
+
+	transition: .25s;
+
+}
+
+#cssmenu ul li.profile{
+	float: right;
+	weight: auto;
+	
+	
+}
+#WIP{
+	margin: 10% 50%;
+	box-shadow: 5px 5px 9px 1px rgba(0,0,0,0.49);
+	
+}
+
+#username {
+
+	text-align:right;
+	margin:20px 2px;
+	float:right;
+	text-decoration: none;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+#maincrah {
+	padding: 2px;
+}
+
+
+@media screen and (pointer: coarse) and (orientation: portrait), screen and (max-width: 1200px){ /* Modificar menu a vertical en tamaño menor de 768px */
+	#cssmenu ul li {
+		float: none;
+		display: block;
+	}
+	#cssmenu ul li a {
+		width: 100%;
+		text-align:center;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border-bottom: 1px solid #c5c6c7;
+	}
+	#espaciador{
+
+	
+	height: 125px;
+	
+	}
+	
+	#EspaciadorLogin {
+		height: 125px;
+		
+	}
+	#cssmenu ul li.last > a, /* elimina la barra del ultimo elemento*/
+	#cssmenu ul li:last-child > a {
+		border: 0;
+	}
+	#cssmenu ul li a:after {
+		display: none;
+	}
+	#cssmenu ul li a:before {
+		display: none;
+	}
+	
+	
+}
+
+@media screen and (pointer: coarse)  and (orientation: portrait){
+	#cssmenu ul {
+		zoom: 1.5;
+	}
+	#login {
+		zoom: 2.5;
+	}
+	#cssmenu ul li.Logo a {
+		padding: 50px 0%;
+		margin: 0% 0%;
+	}
+	#EspaciadorLogin {
+		height: 125px;
+	}
+	#maincrah {
+	padding:258px
+	}
+}
+
+@media screen and (max-width: 950px){
+	#cssmenu ul li.Logo a {
+		padding: 50px 0%;
+		margin: 0% 0%;
+	}
+	#EspaciadorLogin {
+		padding: 160px 0%;
+		margin: 0% 0%;
+	}
+	#maincrah {
+	padding:158px
+	}
+}
+
+#mcmap{
+	background: white;
+	position: fixed;
+	
+	
+}
+
+#cambiar_contra {
+  margin: 3% auto;
+  width: 400px;
+  height:40%;
+  
+  padding: 10px 30px;
+  border-radius:1%;
+  font-size:100%;
+ 
+ 
+}
+
+#login {
+  margin: 3% auto;
+  width: 250px;
+  height:10%;
+  
+  padding: 50px 30px;
+  border-radius:1%;
+  font-size:100%;
+ 
+ 
+}
+
+#login input{
+  float: right;
+  
+  
+ 
+}
+
+#picture{
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	
+}
+
+
+
+
+.footer{
+	position: fixed;
+	left: 20px;
+	bottom: 0;
+}
+
+
+#LoginButton{
+	background: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 3px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius:5%;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+#LoginButton2{
+	background: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 3px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius:5%;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+#LoginButton2:hover{
+	opacity:0.5;
+  
+}
+#LoginButton:hover{
+	opacity:0.5;
+  
+}
+
+
+#login input.password{
+	width:64%;
+	
+}
+#login input.user{
+	width: 64%;
+	
+}
+
+#principal{
+	
+	width:100%;
+	vertical-align:top;
+	
+	
+
+}
+#discord iframe{
+	margin:10% 10%;
+	width:222px;
+	height:444px;
+	float:right;
+	vertical-align:top;
+	
+}
+
+#right{
+	width:20%;
+	vertical-align:top;
+	text-align:center;
+
+}
+
+#left{
+	width:80%;
+	vertical-align:top;
+	margin-left: 5%;
+
+}
+
+
