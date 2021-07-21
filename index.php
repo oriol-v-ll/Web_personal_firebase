@@ -126,9 +126,12 @@ index.php v1.12
 			Qui sóc?
 		</h2>
 			<p>
-			Em dic Oriol Villanova Llorens, tinc 21 anys, m'agrada molt la tecnolgia i el món de la ciència. Actualment estic estudiant el Grau en enginyeria de sistemes i serveis de telecomunicacions a la universitat Rovira i Virgili de Tarragona.
+			Em dic Oriol Villanova Llorens, tinc 22 anys, m'agrada molt la tecnolgia i el món de la ciència. Actualment estic estudiant el Grau en enginyeria de sistemes i serveis de telecomunicacions a la universitat Rovira i Virgili de Tarragona.
 				<p>
 					Quan tinc temps lliure m'agrada fer projectes de tecnolgia, com configurar servidors, programar de diferents maneres i utilitzar tota mena d'eines informatiques i de telecomunicacions.
+				</p>
+				<p>
+					Aquest diseny de la pàgina web esta sent actualitzat per un nou més dinàmic. En un temps proper l'aspecte i/o funcionament d'aquesta es veura afectada per aquest canvi.
 				</p>
 			</p>
 				<br>
